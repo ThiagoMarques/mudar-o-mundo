@@ -14,28 +14,31 @@
 </head>
 
 <body>
-    <nav class="align-menu navbar navbar-expand-lg">
-        <div id="header" class="mobileNav navbar-toggler">
-            <a class="nav-link" href="index.php">Home</a>
-        </div>
-        <div id="header" class="mobileNav navbar-toggler">
-        <a class="nav-link" href="ingressos.php">Ingressos</a>
-        </div>
-        <div id="header" class="mobileNav navbar-toggler">
-        <a class="nav-link" href="contato.php">Contato</a>
-        </div>
-        <div id="header" class="collapse navbar-collapse">
-            <ul class="navMenu navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.php">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="ingressos.php">Ingressos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contato.php">Contato</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg">
+        <div class="align-menu">
+            <div id="header" class="mobileNav navbar-toggler">
+                <a class="nav-link" href="index.php">Home</a>
+            </div>
+            <div id="header" class="mobileNav navbar-toggler">
+            <a class="nav-link" href="ingressos.php">Ingressos</a>
+            </div>
+            <div id="header" class="mobileNav navbar-toggler">
+            <a class="nav-link" href="contato.php">Contato</a>
+            </div>
+            <div id="header" class="collapse navbar-collapse">
+                <ul class="navMenu navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ingressos.php">Ingressos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.php">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            
         </div>
         <div>
             <a href="http://facebook.com/mudaromundobr"
