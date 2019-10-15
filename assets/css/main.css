@@ -1,0 +1,101 @@
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900");
+
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+
+	body {
+		display: flex;
+		flex-direction: column;
+		min-height: 100%;
+	}
+	.title-index {
+		font-size: 35px;
+		margin: 15px;
+	}
+
+	#footer .icons {
+		color: #aaaaaa;
+	}
+	.site-container {
+		margin: 10px;
+	}
+	 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+		/* CSS botão */
+	}
+	btn-div {
+		/* CSS botão */
+	}
+
+	
+
+	.navMenu {
+		font-family: "Raleway", Helvetica, sans-serif;
+		font-size: 1em;
+		font-weight: 400;
+		letter-spacing: 0.15em;
+		line-height: 3.5;
+		text-transform: uppercase;
+	}
+	.mobileNav {
+		font-family: "Raleway", Helvetica, sans-serif;
+		text-decoration: none;
+		font-size: 0.7em;
+		font-weight: 400;
+		letter-spacing: 0.25em;
+		line-height: 2.5;
+		text-transform: uppercase;
+	}
+	
+
+	@media(max-width:33.9em) {
+		.navbar .collapse {max-height:250px;width:100%;overflow-y:auto;overflow-x:hidden;}
+		.navbar .navbar-brand {float:none;display: inline-block;}
+		.navbar .navbar-nav>.nav-item { float: none; margin-left: .1rem;}
+		.navbar .navbar-nav {float:none !important;}
+		.nav-item{width:100%;text-align:left;}
+		.navbar .collapse .dropdown-menu {
+		  position: relative;
+		  float: none;
+		  background:none;
+		  border:none;
+		}
+	  }
+
+	.card {
+		margin: 20px;
+		margin-top: 0px;
+		border: none;
+	}
+
+	.container.sobre-container {
+		margin: none;
+		padding: 0 50px;
+	}
+
+	/* Index - botão div */
+	.art-div {
+		padding-bottom: 15px;
+	}
+	.card-index {
+		border: none;
+	}
+	
+
+	img {
+		display: block;
+		max-width: 100%;
+		height: auto;
+	}
+
+
