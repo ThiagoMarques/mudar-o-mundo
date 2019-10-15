@@ -13,6 +13,20 @@
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
+	/* Links */
+	a, a:focus, a:hover  {
+		color: #294C5B;
+	}
+
+	/* NavBar */
+	.nav-link {
+	text-align: left;
+	font: Regular 21px/25px Sanchez;
+	letter-spacing: 0.94px;
+	color: #294C5B;
+	opacity: 1;
+	padding: .25rem 0;
+	}
 
 	body {
 		display: flex;
@@ -22,10 +36,6 @@
 	.title-index {
 		font-size: 35px;
 		margin: 15px;
-	}
-
-	#footer .icons {
-		color: #aaaaaa;
 	}
 	.site-container {
 		margin: 10px;
