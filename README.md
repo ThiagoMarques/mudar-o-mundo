@@ -1,2 +1,2 @@
 # mudar-o-mundo
-Site para divulgação de um evento
+Site para divulgação de um evento - Gama XP 26
