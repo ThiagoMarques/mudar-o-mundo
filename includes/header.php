@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="align-menu navbar navbar-expand-lg">
         <div id="header" class="mobileNav navbar-toggler">
             <a class="nav-link" href="index.php">Home</a>
         </div>

@@ -19,6 +19,11 @@
 	}
 
 	/* NavBar */
+	.align-menu{
+		margin-right: auto;
+		margin-left: auto;
+	}
+	}
 	.nav-link {
 	text-align: left;
 	font: Regular 21px/25px Sanchez;
