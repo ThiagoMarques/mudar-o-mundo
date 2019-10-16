@@ -8,11 +8,6 @@
     <!--===============================================================================================-->
     <link rel="icon" href="assets/imgs/logo-mudaromundo.png">
     <!--===============================================================================================-->
-    <!-- <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css"> -->
-    <!--===============================================================================================-->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
-        integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-    <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
     <!--===============================================================================================-->
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -42,5 +37,4 @@
       src="https://www.facebook.com/tr?id=499371884243673&ev=PageView&noscript=1"
     /></noscript>
     <!-- End Facebook Pixel Code -->
-
 </head>
