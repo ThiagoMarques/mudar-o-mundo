@@ -1,3 +1,8 @@
+/* IMPORTS */
+@import url('bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+
 /* CSS inicial */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
@@ -12,25 +17,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 body html {
   margin: 0;
   padding: 0;
-}
-.background {
-  background-image: url('../imgs/background-triangule.png');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
+  overflow-x: hidden;
 }
 
 /* Variables */
 :root {
   /* /colors/ */
-  --color-main: #02D6B9 ;
+  --color-main: #24A69F;
   --color-secondary: #125350 ;
-  --color-accent: #EE7397 ;
+  --color-accent: #EE7397;
+  --color-accent-d: #9C669B;
   --color-text: #707070;
   --color-gray: #DEDEDE;
 
@@ -56,25 +52,6 @@ body {
   font-family: var(--font-family);
   letter-spacing: 0.15em;
   margin: 0;
-}
-
-
-/* Grid */
-.card-body {
-  margin: 20px;
-  margin-top: 0px;
-  border: none;
-}
-.container.sobre-container {
-  margin: none;
-  padding: 0 50px;
-}
-.margin-nav {
-  margin-right: 50px;
-}
-.margin-button {
-  margin-left: 30px;
-  margin-right: 30px;
 }
 
 /* Grid - Contato */
@@ -122,61 +99,75 @@ a, a:focus, a:hover  {
   }
 }
 
-/* Index */
-.title-index {
-  font-size: 4em;
-  text-align: left;
+/* Heading Section */
+
+.heading-container {
+  background-color: var(--color-gray);
+}
+
+
+.bg-retangulo::after {
+  content: "";
+  position: fixed;
+  z-index: -1;
+  top: 25vh;
+  left: 60vw;
+  width: 600px;
+  height: 600px;
+  background: transparent linear-gradient(221deg, #EE7397 0%, #9C669B 38%, #645E9D 100%) 0% 0% no-repeat padding-box;
+  opacity: 0.2;
+}
+
+.bg-triangulo::before {
+  content: "";
+  position: fixed;
+  top: 15vh;
+  left: 55vw;
+  border-left: 325px solid transparent;
+  border-right: 325px solid transparent;
+  border-bottom: 650px solid var(--color-main);
+  opacity: .75;
+}
+
+.heading-title {
   font-weight: bold;
-  margin: 15px;
-  color: #24A69F;
+  color: var(--color-main);
   letter-spacing: 0;
-  font-family: "Avenir Next" !important;
+  margin-bottom: var(--s-xs);
 }
-.subtitle-index {
-  font-size: 1.8em;
-  text-align: left;
-  font-weight: 400;
-  margin-left: 15px;
-  color: #646464;
-  letter-spacing: 0;
-  font-family: "Avenir Next" !important;
+
+.heading-sub {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--s-m);
 }
-@media screen and (min-width: 1000px) {
-  .title-index {
-    font-size: 65px;
-  }
-}
-@media screen and (max-width: 1000px) {
-  .title-index {
-    font-size: 45px;
-  }
-}
-@media screen and (min-width: 1000px) {
-  .subtitle-index {
-    font-size: 30px;
-  }
-}
-@media screen and (max-width: 1000px) {
-  .subtitle-index {
-    font-size: 20px;
-  }
+
+.heading-subtitle {
+  margin-right: var(--s-s);
+  color: var(--color-text);
 }
 
 /* Botões */
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+
+.btn-mudar {
   background-color: var(--color-accent);
+  padding: 13px 26px;
+  border-radius: var(--s-xl);
+  transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
 }
 
-.btn-div {
-  margin-top: 45px;
+.btn-mudar_cta {
   text-transform: uppercase;
-  background-color: var(--color-accent);
-  border-radius: 25px;
-  border: none;
-  letter-spacing: 0;
-  font-size: 30px;
-  padding: 17px 32px 17px 32px;
+  color: #ffffff;
+  font-weight: bold;
 }
+
+.btn-mudar:hover,
+.btn-mudar:focus {
+  background-color: var(--color-accent-d);
+}
+
 .btn-contato {
   background-color: var(--color-secondary);
   border-radius: 25px;

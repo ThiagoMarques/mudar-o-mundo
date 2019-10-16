@@ -2,39 +2,27 @@
 
 <?php require_once 'includes/navbar.php'; ?>
 
-<body class="background">
-    <div class="index-container">
+<body>
+    <div class="hero-container bg-retangulo bg-triangulo container">
         <!-- Linha principal-->
-        <div class="row" style="margin-top: 100px">
+        <div class="row">
             <!-- Coluna esquerda-->
-            <div class="col-sm-6">
-                <div class="card-body">
-                    <h2 class="title-index card-title">Show de Humor</h2>
-                    <h2 class="title-index card-title">Solidário</h2>
-                    <div class="d-flex">
-                        <div class="float-right">
-                            <p class="subtitle-index">em prol do</p>
-                        </div>
-                        <div class="col">
-                            <img src="assets/imgs/hcg.png" alt="#LogoHCG"></a>
-                        </div>
+            <div class="col-md-6 heading-column">
+                <div class="heading-mudar">
+                    <h1 class="display-3 heading-title">Show de Humor Solidário</h1>
+                    <div class="heading-sub">
+                        <h4 class="heading-subtitle">Em prol do</h4>
+                        <img class="heading-hcglogo" src="assets/imgs/hcg.png" alt="#LogoHCG"></a>
                     </div>
-                    <div class="row">
-                        <div class="col-md-4 col-lg-2">
-                            <a href="https://www.sympla.com.br/show--de-humor-solidario-com-toni-marmo__683571" target="_blank">
-                                <button type="button" class="btn btn-div btn-sm btn-primary">GARANTA SEU
-                                    INGRESSO</button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                  </div> <!-- /end heading mudar -->
+                  <div class="botao-sympla">
+                    <a class="btn-mudar btn-mudar_cta" href="https://www.sympla.com.br/show--de-humor-solidario-com-toni-marmo__683571" target="_blank">Garanta seu ingresso</a>
+                  </div> <!-- /end botão sympla -->
+              </div> <!-- /end col-md-6 -->
             <!-- Coluna direita-->
-            <div class="col align-self-center">
-                    <div class="card-body">
-                        <img src="assets/imgs/tonimarmo.png" alt="#LogoHCG"></a>
-                    </div>
-                </div>
-            
+            <div class="col-md-6">
+                <img src="assets/imgs/tonimarmo-img2.png" alt="Toni Marmo convida para o Show de Humor Solidário"></a>
+            </div>
         </div>
         <!-- Fim da linha principal-->
     </div>
@@ -42,21 +30,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
-        integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-    <!--===============================================================================================-->
-    <script src="assets/ebook/vendor/jquery/jquery-3.2.1.min.js"></script>
-    <!--===============================================================================================-->
-    <script src="assets/ebook/vendor/bootstrap/js/popper.js"></script>
-    <script src="assets/ebook/vendor/bootstrap/js/bootstrap.min.js"></script>
-    <!--===============================================================================================-->
-    <script src="assets/ebook/vendor/select2/select2.min.js"></script>
-    <!--===============================================================================================-->
-    <script src="assets/ebook/vendor/tilt/tilt.jquery.min.js"></script>
-    <!--===============================================================================================-->
-    <script src="assets/ebook/js/main.js"></script>
-    <!--===============================================================================================-->
-
+    <script src="https://www.sympla.com.br/js/sympla.widget-pt.js/683571"></script>
 </body>
 
 </html>
