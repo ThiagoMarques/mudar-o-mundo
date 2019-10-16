@@ -15,9 +15,8 @@
                         <img class="heading-hcglogo" src="assets/imgs/hcg.png" alt="#LogoHCG"></a>
                     </div>
                   </div> <!-- /end heading mudar -->
-                  <div class="botao-sympla">
-                    <a class="btn-mudar btn-mudar_cta" href="https://www.sympla.com.br/show--de-humor-solidario-com-toni-marmo__683571" target="_blank">Garanta seu ingresso</a>
-                  </div> <!-- /end botão sympla -->
+                  <?php include 'includes/botao-sympla.php'; ?>
+                  <?php include 'includes/widget-sympla.php'; ?>
               </div> <!-- /end col-md-6 -->
             <!-- Coluna direita-->
             <div class="col-md-6">
@@ -27,10 +26,7 @@
         <!-- Fim da linha principal-->
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="https://www.sympla.com.br/js/sympla.widget-pt.js/683571"></script>
+    <?php include 'includes/footer.php'; ?>
 </body>
 
 </html>

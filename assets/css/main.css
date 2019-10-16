@@ -1,9 +1,25 @@
-/* IMPORTS */
+/**********************
+* SUMÁRIO DO SITE *
+* 1. Imports (Bootstrap, Fontes, etc)
+** 2. CSS Base (Reset)
+*** 3. Variáveis
+**** 4. Tipografia
+***** 5. Links
+***** 5.1 Botões
+****** 6. Widgets
+******* 7. Navbar
+******** 8. Heading/Hero Section
+********* 9. Seções de Informação
+********** 10. Contato
+**********************/
+
+
+/* 1. Imports */
 @import url('bootstrap.min.css');
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
 
 
-/* CSS inicial */
+/* 2. CSS Base */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -20,7 +36,7 @@ body html {
   overflow-x: hidden;
 }
 
-/* Variables */
+/* 3. Variáveis */
 :root {
   /* /colors/ */
   --color-main: #24A69F;
@@ -42,7 +58,7 @@ body html {
   --s-xl: 4rem;
 }
 
-/* Typograhy */
+/* 4. Tipografia */
 body {
   font-size: 16px;
   line-height: 1.333;
@@ -62,12 +78,39 @@ body {
 }
 
 
-/* Links */
+/* 5. Links */
 a, a:focus, a:hover  {
   color: #294C5B;
 }
 
-/* NavBar */
+/* 5.1 Botões */
+
+.btn-mudar {
+  background-color: var(--color-accent);
+  padding: 13px 26px;
+  border-radius: var(--s-xl);
+  transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+}
+
+.btn-mudar_cta {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.btn-mudar:hover,
+.btn-mudar:focus {
+  background-color: var(--color-accent-d);
+}
+
+.btn-contato {
+  background-color: var(--color-secondary);
+  border-radius: 25px;
+  padding: 10px 25px 10px 25px;
+}
+
+/* 6. NavBar */
 .menu-icon {
   color: var(--color-main);
 }
@@ -99,7 +142,12 @@ a, a:focus, a:hover  {
   }
 }
 
-/* Heading Section */
+/* 6. Widgets */
+.widget-sympla {
+  margin: 2rem auto;
+}
+
+/* 7. Heading/Hero Section */
 
 .heading-container {
   background-color: var(--color-gray);
@@ -145,33 +193,6 @@ a, a:focus, a:hover  {
 .heading-subtitle {
   margin-right: var(--s-s);
   color: var(--color-text);
-}
-
-/* Botões */
-
-.btn-mudar {
-  background-color: var(--color-accent);
-  padding: 13px 26px;
-  border-radius: var(--s-xl);
-  transition: all 0.2s ease-in;
-  -webkit-transition: all 0.2s ease-in;
-}
-
-.btn-mudar_cta {
-  text-transform: uppercase;
-  color: #ffffff;
-  font-weight: bold;
-}
-
-.btn-mudar:hover,
-.btn-mudar:focus {
-  background-color: var(--color-accent-d);
-}
-
-.btn-contato {
-  background-color: var(--color-secondary);
-  border-radius: 25px;
-  padding: 10px 25px 10px 25px;
 }
 
 /* Imagens */
