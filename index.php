@@ -8,9 +8,10 @@
             <!-- Linha principal-->
             <div class="row align-items-center">
                 <!-- Coluna esquerda-->
-                <div class="col-sm-4">
+                <div class="col-sm-6">
                     <div class="card-body">
-                        <h2 class="title-index card-title">Show de Humor Solidário</h2>
+                        <h2 class="title-index card-title">Show de Humor</h2>
+                        <h2 class="title-index card-title">Solidário</h2>
                         <div class="d-flex">
                             <div class="float-right">
                                 <p class="subtitle-index">em prol do</p>
@@ -32,10 +33,9 @@
                 </div>
 
                 <!-- Coluna direita-->
-                <div class="col-sm-8">
+                <div class="col-sm-6">
                     <div class="card-body">
-                        <p>Imagens</p>
-                        <p>Imagens</p>
+                        <img src="assets/imgs/tonimarmo.png" alt="#LogoHCG"></a>
                     </div>
                 </div>
             </div>
