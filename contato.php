@@ -49,7 +49,7 @@
 <div class="blog-container">
         <div class="card cardBlog">
             <div class="row align-items-center">
-                <div class="col-sm-4">
+                <div class="col-sm-6">
                 <h2 class="title-post ">Fale Conosco</h2>
 
                 <form action="mail/contatoemail.php" method="post">  

@@ -35,7 +35,7 @@
                 <!-- Coluna direita-->
                 <div class="col-sm-6">
                     <div class="card-body">
-                        <img src="assets/imgs/tonimarmo.png" alt="#LogoHCG"></a>
+                        <img class="img-fluid" src="assets/imgs/tonimarmo.png" alt="#LogoHCG"></a>
                     </div>
                 </div>
             </div>
