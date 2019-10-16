@@ -86,7 +86,7 @@ a, a:focus, a:hover  {
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
   /* CSS botão */
 }
-btn-div {
+.btn-div {
   /* CSS botão */
 }
 
@@ -95,10 +95,21 @@ btn-div {
   margin-top: 0px;
   border: none;
 }
+.container-navbar {
+  margin-left: 0px;
+  margin-right: 0px;
+}
 
 .container.sobre-container {
   margin: none;
   padding: 0 50px;
+}
+.margin-nav {
+  margin-right: 50px;
+}
+.margin-button {
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 /* Index - botão div */
