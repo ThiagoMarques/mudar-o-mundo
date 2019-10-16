@@ -6,17 +6,6 @@
 
 <html lang="pt-br">
 
-<head>
-    <title>Fale Conosco</title>
-    <meta charset="utf-8">
-    <!--===============================================================================================-->	
-    <link rel="icon" href="assets/images/icon.png">
-    <!--===============================================================================================-->	
-    <link rel="stylesheet" href="assets/css/bootstrap.css" />
-    <!--===============================================================================================-->	
-    <link rel="stylesheet" href="assets/css/main.css" />
-</head>
-
 <body>
 <div class="blog-container">
         <div class="index-container">
