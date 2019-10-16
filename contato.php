@@ -47,11 +47,9 @@
 
 <body>
 <div class="blog-container">
-        <div class="card cardBlog">
+        <div class="index-container">
             <div class="row align-items-center">
-                <div class="col-sm-6">
-                <h2 class="title-post ">Fale Conosco</h2>
-
+                <div class="col-sm-6 form-contato">
                 <form action="mail/contatoemail.php" method="post">  
                     <div class="form-group">
                         <div class="form-group">
@@ -65,7 +63,7 @@
                         <label for="txtMensagem">Mensagem</label><br>
                         <textarea class="form-control" name="txtMensagem" id="txtMensagem" rows="8" cols="40"></textarea>
                     </div>
-                        <button type="submit" name="Enviar" class="btn btn-primary">Enviar e-mail</button>
+                        <button type="submit" name="Enviar" class="btn btn-contato btn-primary">Enviar e-mail</button>
                     </form>
                 </div>
             </div>
