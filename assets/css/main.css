@@ -79,15 +79,58 @@ a, a:focus, a:hover  {
   }
 
 .title-index {
-  font-size: 35px;
+  font-size: 4em;
+  text-align: left;
+  font-weight: bold;
   margin: 15px;
+  color: #24A69F;
+  letter-spacing: 0;
+  font-family: "Avenir Next" !important;
+}
+.subtitle-index {
+  font-size: 1.8em;
+  text-align: left;
+  font-weight: 400;
+  margin-left: 15px;
+  color: #646464;
+  letter-spacing: 0;
+  font-family: "Avenir Next" !important;
+}
+@media screen and (min-width: 1000px) {
+  .title-index {
+    font-size: 65px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .title-index {
+    font-size: 45px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .subtitle-index {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .subtitle-index {
+    font-size: 20px;
+  }
 }
 
+
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
-  /* CSS botão */
+    color: var(--color-accent);
 }
 .btn-div {
-  /* CSS botão */
+  margin-left: 30px;
+  margin-top: 45px;
+  text-transform: uppercase;
+  background-color: var(--color-accent);
+  border-radius: 25px;
+  border: none;
+  letter-spacing: 0;
+  font-size: 30px;
+  padding: 17px 32px 17px 32px;
 }
 
 .card {
@@ -115,6 +158,9 @@ a, a:focus, a:hover  {
 /* Index - botão div */
 .art-div {
   padding-bottom: 15px;
+}
+.index-container {
+  border: 50px;
 }
 .card-index {
   border: none;
