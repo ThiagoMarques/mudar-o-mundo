@@ -79,8 +79,21 @@ body {
 
 
 /* 5. Links */
-a, a:focus, a:hover  {
-  color: #294C5B;
+a {
+  padding: 1rem;
+  text-transform: uppercase;
+  color: var(--color-main);
+  border-bottom: 2px solid transparent;
+  font-weight: bold;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+  color: var(--color-secondary);
+  border-bottom-color: var(--color-secondary);
 }
 
 /* 5.1 Botões */
@@ -96,6 +109,7 @@ a, a:focus, a:hover  {
   transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
   display: inline-block;
+  text-transform: none;
 }
 
 .btn-mudar_cta {
