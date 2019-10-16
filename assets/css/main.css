@@ -1,116 +1,119 @@
-@import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900");
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
 
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-		margin: 0;
-		padding: 0;
-		border: 0;
-		font-size: 100%;
-		font: inherit;
-		vertical-align: baseline;
-	}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
 
-	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-		display: block;
-	}
-	/* Links */
-	a, a:focus, a:hover  {
-		color: #294C5B;
-	}
+/* Variables */
+:root {
+  /* /colors/ */
+  --color-main: #02D6B9 ;
+  --color-secondary: #125350 ;
+  --color-accent: #EE7397 ;
+  --color-text: #707070;
+  --color-gray: #DEDEDE;
 
-	/* NavBar */
-	.align-menu{
-		margin-right: auto;
-		margin-left: auto;
-	}
-	}
-	.nav-link {
-	text-align: left;
-	font: Regular 21px/25px Sanchez;
-	letter-spacing: 0.94px;
-	color: #294C5B;
-	opacity: 1;
-	padding: .25rem 0;
-	}
+  /* /typography/ */
+  --font-family: 'Lato', 'Helvetica-Neue', sans-serif;
+  --base-font-size: 16px;
 
-	body {
-		display: flex;
-		flex-direction: column;
-		min-height: 100%;
-	}
-	.title-index {
-		font-size: 35px;
-		margin: 15px;
-	}
-	.site-container {
-		margin: 10px;
-	}
-	 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
-		/* CSS botão */
-	}
-	btn-div {
-		/* CSS botão */
-	}
+  /* /spacing/ */
+  --s-xs: .5rem;
+  --s-s: 1rem;
+  --s-m: 2rem;
+  --s-l: 3rem;
+  --s-xl: 4rem;
+}
 
-	
+/* Typograhy */
+body {
+  font-size: 16px;
+  line-height: 1.333;
+  color: var(--color-text);
+  text-decoration: none;
+  font-weight: 400;
+  font-family: var(--font-family);
+  letter-spacing: 0.15em;
+  margin: 0;
+}
 
-	.navMenu {
-		font-family: "Raleway", Helvetica, sans-serif;
-		font-size: 1em;
-		font-weight: 400;
-		letter-spacing: 0.15em;
-		line-height: 3.5;
-		text-transform: uppercase;
-	}
-	.mobileNav {
-		font-family: "Raleway", Helvetica, sans-serif;
-		text-decoration: none;
-		font-size: 0.7em;
-		font-weight: 400;
-		letter-spacing: 0.25em;
-		line-height: 2.5;
-		text-transform: uppercase;
-	}
-	
 
-	@media(max-width:33.9em) {
-		.navbar .collapse {max-height:250px;width:100%;overflow-y:auto;overflow-x:hidden;}
-		.navbar .navbar-brand {float:none;display: inline-block;}
-		.navbar .navbar-nav>.nav-item { float: none; margin-left: .1rem;}
-		.navbar .navbar-nav {float:none !important;}
-		.nav-item{width:100%;text-align:left;}
-		.navbar .collapse .dropdown-menu {
-		  position: relative;
-		  float: none;
-		  background:none;
-		  border:none;
-		}
-	  }
+/* Links */
+a, a:focus, a:hover  {
+  color: #294C5B;
+}
 
-	.card {
-		margin: 20px;
-		margin-top: 0px;
-		border: none;
-	}
+/* NavBar */
+.menu-icon {
+  color: var(--color-main);
+}
 
-	.container.sobre-container {
-		margin: none;
-		padding: 0 50px;
-	}
+.navMenu {
+  text-transform: uppercase;
+}
 
-	/* Index - botão div */
-	.art-div {
-		padding-bottom: 15px;
-	}
-	.card-index {
-		border: none;
-	}
-	
+.mobileNav {
+  font-size: 0.75em;
+  text-transform: uppercase;
+}
 
-	img {
-		display: block;
-		max-width: 100%;
-		height: auto;
-	}
+@media(max-width:33.9em) {
+  .navbar .collapse {max-height:250px;width:100%;overflow-y:auto;overflow-x:hidden;}
+  .navbar .navbar-brand {float:none;display: inline-block;}
+  .navbar .navbar-nav>.nav-item { float: none; margin-left: .1rem;}
+  .navbar .navbar-nav {float:none !important;}
+  .nav-item{width:100%;text-align:left;}
+  .navbar .collapse .dropdown-menu {
+      position: relative;
+      float: none;
+      background:none;
+      border:none;
+    }
+  }
+
+.title-index {
+  font-size: 35px;
+  margin: 15px;
+}
+
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  /* CSS botão */
+}
+btn-div {
+  /* CSS botão */
+}
+
+.card {
+  margin: 20px;
+  margin-top: 0px;
+  border: none;
+}
+
+.container.sobre-container {
+  margin: none;
+  padding: 0 50px;
+}
+
+/* Index - botão div */
+.art-div {
+  padding-bottom: 15px;
+}
+.card-index {
+  border: none;
+}
+
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 

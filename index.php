@@ -1,53 +1,32 @@
-<?php
-require_once 'includes/header.php';
-?>
+<?php require 'includes/header.php'; ?>
 
-<!DOCTYPE html>
-
-<html lang="pt-br">
-
-<head>
-    <title>Mudar o Mundo</title>
-    <meta charset="utf-8">
-    <!--===============================================================================================-->
-    <link rel="icon" href="assets/images/icon.png">
-    <!--===============================================================================================-->
-    <link rel="icon" type="image/image" href="assets/images/icons/icon.png" />
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="assets/font-awesome.min.css">
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-    <!--===============================================================================================-->
-</head>
+<?php require_once 'includes/navbar.php'; ?>
 
 <body>
-    <div class="blog-container">
-        <div class="card card-index" style="border: none">
-            <!-- Linha principal-->
-            <div class="row align-items-center">
-                <!-- Coluna esquerda-->
-                <div class="col-sm-6">
-                    <div class="card-body">
-                        <h2 class="title-index card-title">Show de Humor Solidário</h2>
-                        <p class="art-div">Em prol do {logo}</p>
-                        <a href="#" class="btn-div">
-                            <button type="button" class="btn btn-sm btn-primary">GARANTA SEU INGRESSO</button></a>
-                    </div>
-                </div>
-                <!-- Coluna direita-->
-                <div class="col-sm-6">
-                    <div class="card-body">
-                        <p>Imagens</p>
-                        <p>Imagens</p>
-                    </div>
-                </div>
-        
-            </div>
-        <!-- Fim da linha principal-->
-        </div>
+  <div class="blog-container">
+    <div class="card card-index" style="border: none">
+      <!-- Linha principal-->
+      <div class="row align-items-center">
+          <!-- Coluna esquerda-->
+          <div class="col-sm-6">
+              <div class="card-body">
+                  <h2 class="title-index card-title">Show de Humor Solidário</h2>
+                  <p class="art-div">Em prol do {logo}</p>
+                  <a href="#" class="btn-div">
+                      <button type="button" class="btn btn-sm btn-primary">GARANTA SEU INGRESSO</button></a>
+              </div>
+          </div>
+          <!-- Coluna direita-->
+          <div class="col-sm-6">
+              <div class="card-body">
+                  <p>Imagens</p>
+                  <p>Imagens</p>
+              </div>
+          </div>
+      </div>
+    <!-- Fim da linha principal-->
     </div>
+</div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
