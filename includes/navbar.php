@@ -26,10 +26,10 @@
                 </li>
             </ul>
         </div>
-        
+
 </div>
 <ul class="social-link ml-auto margin-nav">
-      <a href="http://instagram.com/mudaromundobrazil"><span class="fa fa-instagram fa-1x"></span></a>
-      <a href="http://facebook.com/mudaromundobr"><span class="fa fa-facebook-square fa-1x margin-button"></span></a>
+      <a href="http://instagram.com/mudaromundobrazil"><span class="fab fa-instagram fa-2x"></span></a>
+      <a href="http://facebook.com/mudaromundobr"><span class="fab fa-facebook-square fa-2x margin-button"></span></a>
       </ul>
     </nav>

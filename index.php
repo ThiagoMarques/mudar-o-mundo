@@ -3,7 +3,8 @@
 <?php require_once 'includes/navbar.php'; ?>
 
 <body>
-    <div class="hero-container bg-retangulo bg-triangulo container">
+    <section id="home" class="hero-container bg-retangulo bg-triangulo">
+      <div class="container">
         <!-- Linha principal-->
         <div class="row">
             <!-- Coluna esquerda-->
@@ -12,7 +13,7 @@
                     <h1 class="display-3 heading-title">Show de Humor Solidário</h1>
                     <div class="heading-sub">
                         <h4 class="heading-subtitle">Em prol do</h4>
-                        <img class="heading-hcglogo" src="assets/imgs/hcg.png" alt="#LogoHCG"></a>
+                        <img class="heading-hcglogo" src="assets/imgs/hcg.png" alt="Logo do HCG">
                     </div>
                   </div> <!-- /end heading mudar -->
                   <?php include 'includes/botao-sympla.php'; ?>
@@ -24,7 +25,10 @@
             </div>
         </div>
         <!-- Fim da linha principal-->
-    </div>
+        </div>
+    </section>
+    <?php include 'includes/evento.php'; ?>
+    <?php include 'includes/hcg.php'; ?>
 
     <?php include 'includes/footer.php'; ?>
 </body>

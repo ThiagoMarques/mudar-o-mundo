@@ -16,6 +16,7 @@
 
 /* 1. Imports */
 @import url('bootstrap.min.css');
+@import url('all.min.css');
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
 
 
@@ -33,7 +34,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 body html {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
 }
 
 /* 3. Variáveis */
@@ -61,13 +61,13 @@ body html {
 /* 4. Tipografia */
 body {
   font-size: 16px;
-  line-height: 1.333;
+  line-height: 1.5;
   color: var(--color-text);
   text-decoration: none;
   font-weight: 400;
   font-family: var(--font-family);
-  letter-spacing: 0.15em;
   margin: 0;
+  overflow-x: hidden;
 }
 
 /* Grid - Contato */
@@ -79,11 +79,28 @@ body {
 
 
 /* 5. Links */
-a, a:focus, a:hover  {
-  color: #294C5B;
+a {
+  padding: 1rem;
+  text-transform: uppercase;
+  color: var(--color-main);
+  border-bottom: 2px solid transparent;
+  font-weight: bold;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+  color: var(--color-secondary);
+  border-bottom-color: var(--color-secondary);
 }
 
 /* 5.1 Botões */
+
+.botao-sympla {
+  text-align: center;
+}
 
 .btn-mudar {
   background-color: var(--color-accent);
@@ -91,6 +108,8 @@ a, a:focus, a:hover  {
   border-radius: var(--s-xl);
   transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
+  display: inline-block;
+  text-transform: none;
 }
 
 .btn-mudar_cta {
@@ -110,7 +129,16 @@ a, a:focus, a:hover  {
   padding: 10px 25px 10px 25px;
 }
 
-/* 6. NavBar */
+/* 6. Widgets */
+.widget-sympla {
+  margin: 2rem auto;
+}
+
+/* 7. NavBar */
+.navbar {
+  /* background-color: var(--color-gray); */
+}
+
 .menu-icon {
   color: var(--color-main);
 }
@@ -142,21 +170,23 @@ a, a:focus, a:hover  {
   }
 }
 
-/* 6. Widgets */
-.widget-sympla {
-  margin: 2rem auto;
+/* 8. Heading/Hero Section */
+
+.hero-container {
+  padding: 2rem 0rem;
+  /* background-color: var(--color-gray); */
 }
 
-/* 7. Heading/Hero Section */
-
-.heading-container {
-  background-color: var(--color-gray);
+.hero-container img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
-
 
 .bg-retangulo::after {
   content: "";
-  position: fixed;
+  position: absolute;
+  overflow-x: hidden;
   z-index: -1;
   top: 25vh;
   left: 60vw;
@@ -168,7 +198,9 @@ a, a:focus, a:hover  {
 
 .bg-triangulo::before {
   content: "";
-  position: fixed;
+  position: absolute;
+  overflow-x: hidden;
+  z-index: -1;
   top: 15vh;
   left: 55vw;
   border-left: 325px solid transparent;
@@ -195,11 +227,88 @@ a, a:focus, a:hover  {
   color: var(--color-text);
 }
 
-/* Imagens */
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+/* 9. Seções de Info */
+.evento {
+  padding: 1rem 0rem;
 }
 
+.evento-img_mic::after {
+  content: "";
+  display: block;
+  width: 100%;
+  position: absolute;
+  margin: 0 auto;
+  border-radius: 100%;
+  border: 3px dashed var(--color-gray);
+}
 
+.sobre-heading {
+  color: var(--color-main);
+  font-weight: bold;
+  margin-bottom: var(--s-m);
+}
+
+.sobre-paragrafo {
+  margin-bottom: var(--s-l);
+}
+
+.p-highlight {
+  display: inline-block;
+  border-bottom: 1px solid transparent;
+  font-weight: bold;
+}
+
+.p-highlight:hover {
+  border-bottom: 1px solid var(--color-main);
+}
+
+.evento-info {
+  padding: 4rem 0rem;
+  background: transparent linear-gradient(157deg, #277275 0%, #26C0B3 100%) 0% 0% no-repeat padding-box;
+  color: #ffffff;
+}
+
+.info-calendar,
+.info-horario,
+.info-local {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+}
+
+.evento-info span {
+  margin-right: var(--s-s);
+}
+
+.info-local .local-detalhe h3 {
+  margin-bottom: var(--s-xs);
+}
+
+.info-local .local-detalhe p {
+  color: var(--color-gray);
+}
+
+.hcg {
+  padding: 2rem 0rem;
+}
+
+.pargrafo-wrapper {
+  max-width: 25rem;
+  margin: 0rem 2rem;
+}
+
+.logos-combinadas {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hcglogo {
+  margin: 1rem 2rem 2rem;
+}
+
+.logomudaromundo {
+  display: block;
+}
