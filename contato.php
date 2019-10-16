@@ -24,7 +24,7 @@
                         <label for="txtMensagem">Mensagem</label><br>
                         <textarea class="form-control" name="txtMensagem" id="txtMensagem" rows="8" cols="40"></textarea>
                     </div>
-                        <button type="submit" name="Enviar" class="btn btn-contato btn-primary">Enviar e-mail</button>
+                        <button type="submit" name="Enviar" class="btn btn-contato btn-primary">Enviar</button>
                     </form>
                 </div>
             </div>

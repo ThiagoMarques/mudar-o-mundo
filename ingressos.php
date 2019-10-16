@@ -7,15 +7,14 @@
 <html lang="pt-br">
 
 <body>
-    <div class="blog-container">
-        <div class="card cardBlog">
+<div class="blog-container">
+        <div class="index-container">
             <div class="row align-items-center">
-                <div class="col">
-                    <img class="d-block" src="assets/images/example1.png" alt="Imagem de exemplo - Computador">
-                </div>
-                <div class="col">
-                <h2 class="title-post ">404</h2>
-                    <p>Ops, desculpa. Ocorreu um erro inesperado.</p>
+                <div class="col-sm-6 form-contato">
+                <img src="assets/imgs/show.png" alt="#LogoHCG"></a>
+                <a href="https://www.sympla.com.br/show--de-humor-solidario-com-toni-marmo__683571" target="_blank">
+                                <button type="button" class="btn btn-div btn-sm btn-primary">GARANTA SEU
+                                    INGRESSO</button></a>
                 </div>
             </div>
         </div>
@@ -25,7 +24,6 @@
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-
 </body>
 
 </html>

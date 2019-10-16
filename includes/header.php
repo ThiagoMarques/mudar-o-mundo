@@ -6,7 +6,7 @@
     <title>Mudar o Mundo</title>
     <meta charset="utf-8">
     <!--===============================================================================================-->
-    <link rel="icon" href="assets/images/icon.png">
+    <link rel="icon" href="assets/imgs/logo-mudaromundo.png">
     <!--===============================================================================================-->
     <link rel="icon" type="image/image" href="assets/images/icons/icon.png" />
     <!--===============================================================================================-->
