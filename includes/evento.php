@@ -23,6 +23,10 @@
         <span class="far fa-clock fa-2x"></span>
         <h3>19h30</h3>
       </div>
+      <div class="col info-horario">
+        <span class="far fa-clock fa-2x"></span>
+        <h4 id="countdown"></h4>
+      </div>
       <div class="col info-local">
         <span class="fas fa-map-marker-alt fa-2x"></span>
         <div class="local-detalhe">

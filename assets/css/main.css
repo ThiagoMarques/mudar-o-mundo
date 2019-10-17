@@ -110,6 +110,7 @@ a:hover {
   -webkit-transition: all 0.2s ease-in;
   display: inline-block;
   text-transform: none;
+  border: none;
 }
 
 .btn-mudar_cta {

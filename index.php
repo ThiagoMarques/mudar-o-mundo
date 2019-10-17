@@ -29,7 +29,6 @@
     </section>
     <?php include 'includes/evento.php'; ?>
     <?php include 'includes/hcg.php'; ?>
-
     <?php include 'includes/footer.php'; ?>
 </body>
 

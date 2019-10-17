@@ -13,7 +13,7 @@
                 <div class="col-sm-6 form-contato">
                 <img src="assets/imgs/show.png" alt="#LogoHCG"></a>
                 <a href="https://www.sympla.com.br/show--de-humor-solidario-com-toni-marmo__683571" target="_blank">
-                                <button type="button" class="btn btn-div btn-sm btn-primary">GARANTA SEU
+                                <button type="button" class="btn btn-mudar botao-sympla btn-sm btn-primary">GARANTA SEU
                                     INGRESSO</button></a>
                 </div>
             </div>
